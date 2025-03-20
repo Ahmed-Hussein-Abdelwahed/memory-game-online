@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="discription" content="Play memory game online" />
+    <meta name="keywords" content="memory, game, matching, pictures, online" />
+    <meta name="author" content="Ahmed Hussein" />
+    <link rel="icon" href="images/icon.jpg" />
+    <title>Memory game</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Memory Game</h1>
+      <div id="timer-cont" class="time">
+        Time: <span id="minutes"></span>:<span id="seconds"></span>
+      </div>
+      <div id="score-cont" class="score">
+        Score: <span id="score"></span> of <span id="finalScore"></span>
+      </div>
+      <button id="startBtn" class="start-btn">Start</button>
+      <button id="resetBtn" class="reset-btn">Reset</button>
+    </header>
+    <section id="board" class="game-board"></section>
+    <script src="js/game.js"></script>
+  </body>
+</html>
