@@ -12,3 +12,5 @@
 - HTML
 - CSS
 - JS
+  - JS HTML DOM
+  - JS HTML BOM
